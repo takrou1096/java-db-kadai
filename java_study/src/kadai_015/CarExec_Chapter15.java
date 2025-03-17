@@ -14,3 +14,5 @@ public class CarExec_Chapter15 {
 		car2.run();
 	}
 }
+
+//メモ
