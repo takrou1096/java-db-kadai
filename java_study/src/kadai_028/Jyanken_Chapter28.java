@@ -23,5 +23,7 @@ public class Jyanken_Chapter28 {
 		return jankenArray[randomIndex];
 	}
 	
-	public
+	public String playGame() {
+		
+	}
 }
