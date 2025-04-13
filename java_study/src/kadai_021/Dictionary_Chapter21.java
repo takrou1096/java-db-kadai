@@ -13,6 +13,7 @@ public class Dictionary_Chapter21 {
 		dictionary.put("grape","ぶどう");
 		dictionary.put("muscat","マスカット");
 		dictionary.put("cherry","さくらんぼ");
+		dictionary.put("kiwi","キウィ");
 	
 		String result = "";
 		for(int i = 0; i < word.length; i++) {

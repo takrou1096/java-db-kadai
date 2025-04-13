@@ -9,15 +9,18 @@ public class Jyanken_Chapter28 {
 			System.out.println("チョキはscissorsのsを入力しましょう");
 			System.out.println("パーはpaperのpを入力しましょう");
 			
+			while(true) {
 			Scanner scanner = new Scanner(System.in);
 			String input = scanner.nextLine();
-			if(!input.equals("r")||!input.equals("s")||!input.equals("p")){	
+			if(!input.equals("r")&&!input.equals("s")&&!input.equals("p")){	
 				System.out.println(input);
+				
 			}else{
 				System.out.println("r,s,pで入力してください。");
+				scanner.close();
+				return input;
 			}
-			scanner.close();
-			return input;
+			}
 		}
 	
 	public String getRandom() {
