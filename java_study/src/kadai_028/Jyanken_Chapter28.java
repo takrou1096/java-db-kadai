@@ -22,7 +22,7 @@ public class Jyanken_Chapter28 {
 	
 	public String getRandom() {
 		String[] jankenArray = {"r" ,"s" ,"p"};
-		int randomIndex = (int) (Math.random() * jankenArray.length);
+		int randomIndex = (int) (Math.floor(Math.random() * jankenArray.length));
 		return jankenArray[randomIndex];
 	}
 	
