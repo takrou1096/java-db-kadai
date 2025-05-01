@@ -33,7 +33,7 @@ public class CreateEmployeesTable {
                          );
                          """;
 
-            // SQLクエリを実行（DBMSに送信）
+            // SQLクエリを実行（DBMSに送信）1
             int rowCnt = statement.executeUpdate(sql);
             System.out.println("テーブルを作成: rowCnt = " + rowCnt);
 
